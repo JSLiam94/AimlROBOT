@@ -2,10 +2,11 @@
 ### 开发日志 :point_up: 
 
 LIAM带有简易学习功能，目前学习只能一句话对应一个回答，语料库在本地</br>
-小泮(小Q)为青云客开源机器人，需联网
+小泮(小Q)为青云客开源机器人，需联网</br>
+目前经终端版本可实现全部功能，TKinter版本只有LIAM机器人</br>
 
-测试前检查xuexi.aiml文件是否完整
-开头是否有
+测试前检查xuexi.aiml文件是否完整</br>
+开头是否有</br>
 
     <?xml version="1.0" encoding="UTF-8"?>
 
@@ -19,7 +20,7 @@ LIAM带有简易学习功能，目前学习只能一句话对应一个回答，�
     <meta name="author" content="Andelf"/>
     <meta name="language" content="zh"/>
 
-如果无，需添加（支持aiml库原作者）
+如果无，需添加（支持aiml库原作者）</br>
 
 
 每次在询问并回答完“你叫什么名字？”后可开始根据语料库交流</br>
