@@ -1,0 +1,51 @@
+LIAM带有简易学习功能，目前学习只能一句话对应一个回答，语料库在本地
+小Q为青云开源机器人，需联网
+###第一次使用请解压所有压缩包到此文件夹下，保留文件夹
+测试前检查xuexi.aiml文件是否完整
+开头是否有
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2012 andelf -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Andelf"/>
+<meta name="language" content="zh"/>
+
+如果无，需添加
+
+
+每次在询问并回答完“你叫什么名字？”后可开始根据语料库交流
+每次在询问并回答完“你喜欢什么颜色？”后可开始自由交互及学习
+LIAM中输入exit退出
+
+LDT.db文件为聊天记录，会自动创建
+
+
+
+——2022.5.21 LIAM 
+内容自检：
+
+文件夹：
+build
+chinese #LIAM所有中文语料库
+chinese-some #LIAM部分中文语料库
+dist #应用程序备份
+english #LIAM所有英文语料库
+
+主文件：
+ai.aiml #LIAM英文语料库其一
+cn-startup.xml #LIAM完整语料库学习文件
+cn-startup1.xml #LIAM部分语料库学习文件
+liam[启动程序].exe
+xuexi.aiml #LIAM学习中语料库
+
+
+liamV1.4.2完整版本为娱乐版本，对其中部分功能（如时间，价格计算）请勿较真
+	精简版[实用版本]开发中，敬请期待……
+
+--2022.5.20
