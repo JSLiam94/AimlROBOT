@@ -5,7 +5,7 @@ LIAM带有简易学习功能，目前学习只能一句话对应一个回答，�
 
 测试前检查xuexi.aiml文件是否完整
 开头是否有
-
+'''
 <?xml version="1.0" encoding="UTF-8"?>
 
 <aiml version="1.0">
@@ -17,7 +17,7 @@ LIAM带有简易学习功能，目前学习只能一句话对应一个回答，�
 
 <meta name="author" content="Andelf"/>
 <meta name="language" content="zh"/>
-
+'''
 如果无，需添加
 
 
@@ -71,13 +71,13 @@ liamV1.4.2完整版本为娱乐版本，对其中部分功能（如时间，价�
 	  #实现滚动条与txt区块同步
 	4.清空entry框内容：inp1.delete(0, END)
 	5.LIAM无法运行，经检查，原因如下：
-		   	 k = aiml.Kernel()
+			k = aiml.Kernel()
     			
     			k.learn("cn-startup1.xml")
     			k.respond("load aiml cn")
-   			 #k.respond("start")
-   			 app = Flask(__name__)
-   			 app.config['SECRET_KEY'] = 'hard to guess string'
+   			k.respond("start")
+   			app = Flask(__name__)
+   			app.config['SECRET_KEY'] = 'hard to guess string'
 			运行后learn内容保存在了aiml模块自定义函数中，一旦停止运行则无法继续访问而需要重新加载，
 					    每次进入会访问基本交互‘你叫什么名字’‘你喜欢的颜色？’等
 
